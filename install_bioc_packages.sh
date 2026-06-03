@@ -2,7 +2,8 @@
 
 set -e
 
-PKG_DIR="/dss/dssfs05/lwp-dss-0003/pn46mo/pn46mo-dss-0000/github/scRNAseq_pixi/bio_pkg"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PKG_DIR="${SCRIPT_DIR}/bio_pkg"
 
 export LC_ALL=C.UTF-8
 export LANG=C.UTF-8
