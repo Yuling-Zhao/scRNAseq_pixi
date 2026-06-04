@@ -46,6 +46,10 @@ To make this persistent, add those lines to `~/.bashrc` or your HPC shell startu
 
 This setup is expected to work from a normal terminal or an Open OnDemand VS Code terminal. Open OnDemand RStudio can have trouble inheriting the same shell environment, so setting up and validating this Pixi environment from RStudio is not currently recommended.
 
+If you want to code in R with Pixi from an LRZ Open OnDemand VS Code session, follow exaclty [OnDemand_VScode.md](OnDemand_VScode.md). It uses `part2` as the example environment for running R notebooks through Jupyter and VS Code.
+
+To build up a reproducible workflow as documentation for the project, follow GOOD_CONDUCT.md. It is very important to have a clear structure for publication.
+
 ## 3. Clone This Repository
 
 Clone the repository and enter it:
